@@ -1,0 +1,542 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>命令 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="Vanilla/CTGUI.html" />
+    
+    
+    <link rel="prev" href="UsingThisWiki.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    前言
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="Synopsis.html">
+            
+                <a href="Synopsis.html">
+            
+                    
+                    主页
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="Getting_Started.html">
+            
+                <a href="Getting_Started.html">
+            
+                    
+                    脚本入门
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="UsingThisWiki.html">
+            
+                <a href="UsingThisWiki.html">
+            
+                    
+                    Wiki使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.5" data-path="Commands.html">
+            
+                <a href="Commands.html">
+            
+                    
+                    命令
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="Vanilla/CTGUI.html">
+            
+                <a href="Vanilla/CTGUI.html">
+            
+                    
+                    CTGUI
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" >
+            
+                <span>
+            
+                    
+                    敬请期待？
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >命令</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x547D;&#x4EE4;">&#x547D;&#x4EE4;</h1>
+<p><a href="https://docs.blamejared.com/1.12/en/Commands" target="_blank">&#x82F1;&#x6587;wiki</a></p>
+<p>CraftTweaker &#x6DFB;&#x52A0;&#x4E86;&#x4E00;&#x4E9B;&#x547D;&#x4EE4;&#xFF0C;&#x8FD9;&#x4E9B;&#x547D;&#x4EE4;&#x53EF;&#x4EE5;&#x5E2E;&#x52A9;&#x4F60;&#x521B;&#x5EFA;&#x811A;&#x672C;&#xFF0C;&#x5E76;&#x51CF;&#x5C11;&#x7F16;&#x5199;&#x811A;&#x672C;&#x7684;&#x5F00;&#x53D1;&#x65F6;&#x95F4;&#x3002;</p>
+<p>&#x547D;&#x4EE4;&#x7684;&#x524D;&#x7F00;&#x662F;&#xFF1A;<code>/crafttweaker</code>&#x6216;<code>/ct</code></p>
+<p>&#x4F60;&#x4E5F;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x8FD9;&#x4E9B;&#x522B;&#x540D;&#xFF1A;<code>/minetweaker</code>&#x6216;<code>/mt</code></p>
+<p>&#x6E38;&#x620F;&#x4E2D;&#x7684;&#x6240;&#x6709;&#x547D;&#x4EE4;&#x90FD;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x4EE5;&#x4E0B;&#x65B9;&#x5F0F;&#x627E;&#x5230;:</p>
+<p><code>/crafttweaker help</code></p>
+<p>&#x6216;&#x8005;</p>
+<p><code>/ct help</code></p>
+<h2 id="&#x547D;&#x4EE4;&#x5217;&#x8868;">&#x547D;&#x4EE4;&#x5217;&#x8868;</h2>
+<h3 id="&#x751F;&#x7269;&#x7FA4;&#x7CFB;">&#x751F;&#x7269;&#x7FA4;&#x7CFB;</h3>
+<p>&#x7528;&#x6CD5;&#xFF1A;</p>
+<p><code>/crafttweaker biomes</code></p>
+<p><code>/ct biomes</code></p>
+<p>&#x8BF4;&#x660E;:</p>
+<p>&#x5217;&#x51FA;&#x6E38;&#x620F;&#x4E2D;&#x7684;&#x6240;&#x6709;&#x751F;&#x7269;&#x7FA4;&#x7CFB;&#x3002;</p>
+<h3 id="&#x751F;&#x7269;&#x7FA4;&#x7CFB;&#x7C7B;&#x578B;">&#x751F;&#x7269;&#x7FA4;&#x7CFB;&#x7C7B;&#x578B;</h3>
+<p>&#x7528;&#x6CD5;&#xFF1A;</p>
+<p><code>/crafttweaker biomeTypes</code></p>
+<p><code>/ct biomeTypes</code></p>
+<p>&#x8BF4;&#x660E;:</p>
+<p>&#x5217;&#x51FA;&#x6E38;&#x620F;&#x4E2D;&#x7684;&#x6240;&#x6709;&#x751F;&#x7269;&#x7FA4;&#x7CFB;&#x7C7B;&#x578B;&#x3002;</p>
+<h3 id="&#x65B9;&#x5757;&#x4FE1;&#x606F;">&#x65B9;&#x5757;&#x4FE1;&#x606F;</h3>
+<p>&#x7528;&#x6CD5;&#xFF1A;</p>
+<p><code>/crafttweaker blockinfo</code></p>
+<p><code>/ct blockinfo</code></p>
+<p>&#x8BF4;&#x660E;&#xFF1A;</p>
+<p>&#x542F;&#x7528;&#x6216;&#x7981;&#x7528;&#x65B9;&#x5757;&#x4FE1;&#x606F;&#x8BFB;&#x53D6;&#x5668;&#x3002; &#x5728;&#x542F;&#x7528;&#x65B9;&#x5757;&#x4FE1;&#x606F;&#x6A21;&#x5F0F;&#x4E0B;&#xFF0C;&#x53F3;&#x952E;&#x70B9;&#x51FB;&#x65B9;&#x5757;&#xFF0C;&#x5C06;&#x8F93;&#x51FA;&#x65B9;&#x5757;&#x7684;&#x540D;&#x79F0;&#x3001;&#x5143;&#x6570;&#x636E;&#x548C; TileEntity &#x6570;&#x636E;&#x3002;</p>
+<h3 id="&#x65B9;&#x5757;">&#x65B9;&#x5757;</h3>
+<p>&#x7528;&#x6CD5;&#xFF1A;</p>
+<p><code>/crafttweaker blocks</code></p>
+<p><code>/ct blocks</code></p>
+<p>&#x8BF4;&#x660E;&#xFF1A;</p>
+<p>&#x5C06;&#x6E38;&#x620F;&#x4E2D;&#x6240;&#x6709;&#x7684;&#x65B9;&#x5757;&#x540D;&#x79F0;&#x8F93;&#x51FA;&#x5230; crafttweaker.log &#x6587;&#x4EF6;&#x4E2D;&#x3002;</p>
+<h3 id="&#x95EE;&#x9898;&#x8FFD;&#x8E2A;">&#x95EE;&#x9898;&#x8FFD;&#x8E2A;</h3>
+<p>&#x7528;&#x6CD5;&#xFF1A;</p>
+<p><code>/crafttweaker bugs</code></p>
+<p><code>/ct bugs</code></p>
+<p>&#x8BF4;&#x660E;&#xFF1A;</p>
+<p>&#x5728;&#x6D4F;&#x89C8;&#x5668;&#x4E2D;&#x6253;&#x5F00; GitHub &#x9519;&#x8BEF;&#x8DDF;&#x8E2A;&#x5668;&#x3002;</p>
+<h3 id="&#x5408;&#x6210;&#x8868;&#x51B2;&#x7A81;">&#x5408;&#x6210;&#x8868;&#x51B2;&#x7A81;</h3>
+<p>&#x7528;&#x6CD5;&#xFF1A;</p>
+<p><code>/crafttweaker conflict</code></p>
+<p><code>/ct conflict</code></p>
+<p>&#x8BF4;&#x660E;&#xFF1A;</p>
+<p>&#x5C06;&#x6240;&#x6709;&#x51B2;&#x7A81;&#x7684;&#x5408;&#x6210;&#x8868;&#x914D;&#x65B9;&#x8F93;&#x51FA;&#x81F3; crafttweaker.log &#x6587;&#x4EF6;&#x4E2D;&#x3002;<br>&#x8BF7;&#x6CE8;&#x610F;&#xFF0C;&#x8FD9;&#x53EA;&#x9002;&#x7528;&#x4E8E;&#x5B89;&#x88C5;&#x4E86; JEI &#x7684;&#x5BA2;&#x6237;&#x7AEF;&#xFF01;</p>
+<h3 id="discord">Discord</h3>
+<p>&#x7528;&#x6CD5;&#xFF1A;</p>
+<p><code>/crafttweaker discord</code></p>
+<p><code>/ct discord</code></p>
+<p>&#x8BF4;&#x660E;&#xFF1A;</p>
+<p>&#x5728;&#x6D4F;&#x89C8;&#x5668;&#x4E2D;&#x6253;&#x5F00;<a href="https://www.discord.blamejared.com/" target="_blank">Discord &#x670D;&#x52A1;&#x5668;</a>&#x3002;</p>
+<h3 id="&#x6587;&#x6863;">&#x6587;&#x6863;</h3>
+<p>&#x7528;&#x6CD5;&#xFF1A;</p>
+<p><code>/crafttweaker docs</code></p>
+<p><code>/ct docs</code></p>
+<p>&#x8BF4;&#x660E;&#xFF1A;</p>
+<p>&#x5728;&#x6D4F;&#x89C8;&#x5668;&#x4E2D;&#x6253;&#x5F00;&#x8FD9;&#x4E2A;&#x6587;&#x6863;&#x9875;&#x9762; (&#x4E0E; <code>/ct wiki</code>&#x76F8;&#x540C;)&#x3002;</p>
+<h3 id="&#x5BFC;&#x51FA;&#x811A;&#x672C;&#x4FEE;&#x6539;&#x5185;&#x5BB9;">&#x5BFC;&#x51FA;&#x811A;&#x672C;&#x4FEE;&#x6539;&#x5185;&#x5BB9;</h3>
+<p>&#x7528;&#x6CD5;&#xFF1A;</p>
+<p><code>/crafttweaker dumpzs</code></p>
+<p><code>/ct dumpzs</code></p>
+<p>&#x8BF4;&#x660E;&#xFF1A;</p>
+<p>&#x5C06;ZenScript&#x8F6C;&#x50A8;&#x4F5C;&#x4E3A;HTML&#x6587;&#x4EF6;&#x8F93;&#x51FA;&#x5230;minecraft&#x76EE;&#x5F55;&#x4E2D;&#x7684;crafttweaker _ dump&#x6587;&#x4EF6;&#x5939;&#x3002;&#x4F60;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x4E00;&#x4E2A;&#x6216;&#x591A;&#x4E2A;&#x5C06;&#x8FDE;&#x7EED;&#x6267;&#x884C;&#x7684;&#x8F6C;&#x50A8;&#x76EE;&#x6807;(&#x5982;&#x679C;&#x4F60;&#x63D0;&#x4F9B;&#x4E24;&#x6B21;&#x76EE;&#x6807;&#xFF0C;&#x5B83;&#x5C06;&#x8FD0;&#x884C;&#x4E24;&#x6B21;)&#x3002;<br>&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x81EA;&#x52A8;&#x8865;&#x5168;(tab&#x952E;)&#x627E;&#x5230;&#x76EE;&#x6807;&#x3002;<br>&#x9ED8;&#x8BA4;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;<code>log</code>&#x3001;<code>html</code>&#x548C;<code>json</code>&#x88AB;&#x6CE8;&#x518C;&#x4E3A;&#x76EE;&#x6807;&#x3002;<br>&#x8FD9;&#x5C06;&#x5305;&#x62EC;&#x6240;&#x6709;&#x6CE8;&#x518C;&#x7684;&#x5C16;&#x62EC;&#x53F7;&#x5F15;&#x7528;&#x3001;ZenTypes&#x3001;&#x5168;&#x5C40;&#x51FD;&#x6570;&#x3001;ZenExpansions&#x548C;&#x6240;&#x6709;&#x6CE8;&#x518C;&#x7684;&#x5305;&#xFF0C;&#x5305;&#x62EC;&#x5B83;&#x4EEC;&#x7684;&#x65B9;&#x6CD5;&#x3002;<br>&#x8BF7;&#x6CE8;&#x610F;&#xFF0C;&#x5E76;&#x975E;&#x6240;&#x6709;&#x8FD9;&#x4E9B;&#x90FD;&#x53EF;&#x4EE5;&#x5728;&#x811A;&#x672C;&#x4E2D;&#x4F7F;&#x7528;&#xFF01;  </p>
+<h3 id="&#x5B9E;&#x4F53;">&#x5B9E;&#x4F53;</h3>
+<p>&#x7528;&#x6CD5;&#xFF1A;</p>
+<p><code>/crafttweaker entities</code></p>
+<p><code>/ct entities</code></p>
+<p>&#x8BF4;&#x660E;&#xFF1A;</p>
+<p>&#x5C06;&#x6E38;&#x620F;&#x4E2D;&#x6240;&#x6709;&#x7684;&#x5B9E;&#x4F53;&#x540D;&#x79F0;&#x8F93;&#x51FA;&#x5230; crafttweaker.log &#x6587;&#x4EF6;&#x4E2D;&#x3002;</p>
+<h3 id="&#x7ED9;&#x4E88;&#x7269;&#x54C1;">&#x7ED9;&#x4E88;&#x7269;&#x54C1;</h3>
+<p>&#x7528;&#x6CD5;&#xFF1A;</p>
+<p><code>/crafttweaker give &lt;minecraft:bedrock&gt;</code></p>
+<p><code>/ct give &lt;minecraft:bedrock&gt;</code></p>
+<p>&#x8BF4;&#x660E;&#xFF1A;</p>
+<p>&#x4F7F;&#x7528;CrT&#x7684;&#x5C16;&#x62EC;&#x53F7;&#x8C03;&#x7528;&#x7ED9;&#x4E88;&#x73A9;&#x5BB6;&#x7269;&#x54C1;&#x3002;<br>&#x4F60;&#x4E5F;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x9644;&#x52A0;&#x4E00;&#x4E2A; <code>.withTag()</code> &#x6765;&#x5E94;&#x7528;&#x6807;&#x7B7E;&#x3002;<br>&#x8BF7;&#x6CE8;&#x610F;&#xFF0C;&#x8FD9;&#x662F;&#x4E00;&#x4E2A;&#x975E;&#x5E38;&#x7B80;&#x5355;&#x7684;&#x89E3;&#x6790;&#x5668;&#xFF0C;&#x53EF;&#x80FD;&#x5E76;&#x4E0D;&#x9002;&#x7528;&#x4E8E;&#x6240;&#x6709;&#x60C5;&#x51B5;&#xFF01;</p>
+<h3 id="&#x624B;&#x4E2D;">&#x624B;&#x4E2D;</h3>
+<p>&#x7528;&#x6CD5;&#xFF1A;</p>
+<p><code>/crafttweaker hand</code></p>
+<p><code>/ct hand</code></p>
+<p>&#x8BF4;&#x660E;&#xFF1A;</p>
+<p>&#x5C06;&#x4F60;&#x624B;&#x4E2D;&#x7684;&#x7269;&#x54C1;&#x540D;&#x79F0;&#x6253;&#x5370;&#x5230;&#x804A;&#x5929;&#x680F;&#x4E2D;&#x3002;</p>
+<p>&#x8FD8;&#x5C06;&#x540D;&#x79F0;&#x590D;&#x5236;&#x5230;&#x526A;&#x8D34;&#x677F;&#x5E76;&#x6253;&#x5370;&#x77FF;&#x8F9E;&#x6761;&#x76EE;&#x3002;</p>
+<h3 id="&#x7269;&#x54C1;&#x680F;">&#x7269;&#x54C1;&#x680F;</h3>
+<p>&#x7528;&#x6CD5;&#xFF1A;</p>
+<p><code>/crafttweaker inventory</code></p>
+<p><code>/ct inventory</code></p>
+<p>&#x8BF4;&#x660E;&#xFF1A;</p>
+<p>&#x5C06;&#x7269;&#x54C1;&#x680F;&#x4E2D;&#x6240;&#x6709;&#x7684;&#x7269;&#x54C1;&#x540D;&#x79F0;&#x8F93;&#x51FA;&#x5230; crafttweaker.log &#x6587;&#x4EF6;&#x4E2D;&#x3002;</p>
+<h3 id="jei&#x7C7B;&#x522B;">JEI&#x7C7B;&#x522B;</h3>
+<p>&#x7528;&#x6CD5;&#xFF1A;</p>
+<p><code>/crafttweaker jeiCategories</code></p>
+<p><code>/ct jeiCategories</code></p>
+<p>&#x8BF4;&#x660E;&#xFF1A;</p>
+<p>&#x5C06;&#x6240;&#x6709;&#x6CE8;&#x518C;&#x7684;JEI&#x7C7B;&#x522B;&#x8F93;&#x51FA;&#x5230; crafttweaker.log &#x6587;&#x4EF6;&#x4E2D;&#x3002;<br>&#x9700;&#x8981;&#x5B89;&#x88C5;JEI&#xFF01;</p>
+<h3 id="json">Json</h3>
+<p>&#x7528;&#x6CD5;&#xFF1A;</p>
+<p><code>/crafttweaker json</code> <code>/crafttweaker json escaped</code></p>
+<p><code>/ct json</code> <code>/ct json escaped</code></p>
+<p>&#x8BF4;&#x660E;&#xFF1A;</p>
+<p>&#x5C06;&#x4F60;&#x624B;&#x91CC;&#x7269;&#x54C1;&#x7684;nbt&#x6253;&#x5370;&#x4E3A;&#x804A;&#x5929;&#x680F;&#x7684;JSON&#x3002;<br>&#x8FD9;&#x79CD;&#x683C;&#x5F0F;&#x4E0D;&#x540C;&#x4E8E;CraftTweaker&#x4F7F;&#x7528;&#x7684;IData&#x683C;&#x5F0F;&#x3002;<br>&#x60A8;&#x53EF;&#x4EE5;&#x5355;&#x51FB;&#x5B83;&#x5C06;&#x5176;&#x590D;&#x5236;&#x5230;&#x526A;&#x8D34;&#x677F;&#x3002;<br>&#x5982;&#x679C;&#x5C06; <code>escaped</code> &#x4F20;&#x9012;&#x7ED9;&#x53C2;&#x6570;&#xFF0C;&#x5219;&#x4F1A;&#x81EA;&#x52A8;&#x5BF9;&#x5B57;&#x7B26;&#x4E32;&#x8FDB;&#x884C;&#x8F6C;&#x4E49;&#x5904;&#x7406;&#x3002;</p>
+<h3 id="&#x6DB2;&#x4F53;">&#x6DB2;&#x4F53;</h3>
+<p>&#x7528;&#x6CD5;&#xFF1A;</p>
+<p><code>/crafttweaker liquids</code></p>
+<p><code>/ct liquids</code></p>
+<p>&#x8BF4;&#x660E;&#xFF1A;</p>
+<p>&#x5C06;&#x6E38;&#x620F;&#x4E2D;&#x6240;&#x6709;&#x7684;&#x6DB2;&#x4F53;&#x540D;&#x79F0;&#x8F93;&#x51FA;&#x5230; crafttweaker.log &#x6587;&#x4EF6;&#x4E2D;&#x3002;</p>
+<h3 id="log">Log</h3>
+<p>&#x7528;&#x6CD5;&#xFF1A;</p>
+<p><code>/crafttweaker log</code></p>
+<p><code>/ct log</code></p>
+<p>&#x8BF4;&#x660E;&#xFF1A;</p>
+<p>&#x53D1;&#x9001;&#x4E00;&#x4E2A;&#x53EF;&#x70B9;&#x51FB;&#x7684;&#x94FE;&#x63A5;&#x6765;&#x6253;&#x5F00;crafttweaker.log&#x3002;</p>
+<h3 id="mod">Mod</h3>
+<p>&#x7528;&#x6CD5;&#xFF1A;</p>
+<p><code>/crafttweaker mods</code></p>
+<p><code>/ct mods</code></p>
+<p>&#x8BF4;&#x660E;&#xFF1A;</p>
+<p>&#x5C06;&#x6E38;&#x620F;&#x4E2D;&#x6240;&#x6709;mod&#x540D;&#x79F0;&#x53CA;&#x5176;&#x7248;&#x672C;&#x8F93;&#x51FA;&#x5230;crafttweaker.log&#x6587;&#x4EF6;&#xFF0C;&#x5E76;&#x5728;&#x804A;&#x5929;&#x680F;&#x4E2D;&#x6253;&#x5370;&#x51FA;&#x6765;&#x3002;</p>
+<h3 id="&#x7269;&#x54C1;&#x540D;">&#x7269;&#x54C1;&#x540D;</h3>
+<p>&#x7528;&#x6CD5;&#xFF1A;</p>
+<p><code>/crafttweaker names [category(&#x7C7B;&#x522B;)]</code></p>
+<p><code>/ct names [category]</code></p>
+<p>&#x8BF4;&#x660E;&#xFF1A;</p>
+<p>&#x5C06;&#x6E38;&#x620F;&#x4E2D;&#x6240;&#x6709;&#x7684;&#x7269;&#x54C1;&#x540D;&#x79F0;&#x8F93;&#x51FA;&#x5230; crafttweaker.log &#x6587;&#x4EF6;&#x4E2D;&#x3002;<br><code>category</code> &#x53C2;&#x6570;&#x662F;&#x53EF;&#x9009;&#x7684;&#xFF0C;&#x5E76;&#x5C06;&#x6839;&#x636E;&#x4EE5;&#x4E0B;&#x4FE1;&#x606F;&#x6269;&#x5C55;&#x5217;&#x8868;:</p>
+<ul>
+<li><p>burntime</p>
+</li>
+<li><p>creativetabs</p>
+</li>
+<li><p>damageable</p>
+</li>
+<li><p>display</p>
+</li>
+<li><p>enchantability</p>
+</li>
+<li><p>foodvalue</p>
+</li>
+<li><p>maxdamage</p>
+</li>
+<li><p>maxstack</p>
+</li>
+<li><p>maxuse</p>
+</li>
+<li><p>modid</p>
+</li>
+<li><p>rarity</p>
+</li>
+<li><p>repairable</p>
+</li>
+<li><p>repaircost</p>
+</li>
+<li><p>saturationvalue</p>
+</li>
+<li><p>unloc</p>
+</li>
+</ul>
+<p>&#x60A8;&#x8FD8;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;TAB&#x952E;&#x81EA;&#x52A8;&#x8865;&#x5168;&#x529F;&#x80FD;&#x67E5;&#x770B;&#x6240;&#x6709;&#x53EF;&#x7528;&#x7684;&#x53C2;&#x6570;&#x3002;</p>
+<h3 id="nbt">Nbt</h3>
+<p>&#x7528;&#x6CD5;&#xFF1A;</p>
+<p><code>/crafttweaker nbt</code></p>
+<p><code>/ct nbt</code></p>
+<p>&#x8BF4;&#x660E;&#xFF1A;</p>
+<p>&#x5C06;&#x4F60;&#x76EE;&#x89C6;&#x65B9;&#x5757;&#x6216;&#x4F60;&#x624B;&#x4E0A;&#x7269;&#x54C1;&#x7684;NBT&#x8F93;&#x51FA;&#x5230;crafttweaker.log&#x6587;&#x4EF6;&#x3002;</p>
+<h3 id="&#x77FF;&#x8F9E;">&#x77FF;&#x8F9E;</h3>
+<p>&#x7528;&#x6CD5;&#xFF1A;</p>
+<p><code>/crafttweaker oredict &lt;name&gt;</code></p>
+<p><code>/ct oredict &lt;name&gt;</code></p>
+<p>&#x8BF4;&#x660E;&#xFF1A;</p>
+<p>&#x5C06;&#x6E38;&#x620F;&#x4E2D;&#x6240;&#x6709;&#x7684;&#x77FF;&#x8F9E;&#x6761;&#x76EE;&#x540D;&#x79F0;&#x8F93;&#x51FA;&#x5230;crafttweaker.log&#x6587;&#x4EF6;&#x4E2D;&#x3002;</p>
+<p>&#x5982;&#x679C;&#x4E3A;<name>&#x63D0;&#x4F9B;&#x503C;&#xFF0C;&#x6240;&#x6709;&#x6CE8;&#x518C;&#x5230;&#x8BE5;&#x77FF;&#x8F9E;&#x7684;&#x7269;&#x54C1;&#x7684;&#x540D;&#x79F0;&#x5C06;&#x88AB;&#x8F93;&#x51FA;&#x5230;crafttweaker.log&#x6587;&#x4EF6;&#x4E2D;&#x3002;</name></p>
+<h3 id="&#x836F;&#x6C34;">&#x836F;&#x6C34;</h3>
+<p>&#x7528;&#x6CD5;&#xFF1A;</p>
+<p><code>/crafttweaker potions</code></p>
+<p><code>/ct potions</code></p>
+<p>&#x8BF4;&#x660E;&#xFF1A;</p>
+<p>&#x5C06;&#x6E38;&#x620F;&#x4E2D;&#x6240;&#x6709;&#x7684;&#x836F;&#x6C34;&#x540D;&#x79F0;&#x8F93;&#x51FA;&#x5230; crafttweaker.log &#x6587;&#x4EF6;&#x4E2D;&#x3002;</p>
+<h3 id="&#x914D;&#x65B9;&#x540D;&#x79F0;">&#x914D;&#x65B9;&#x540D;&#x79F0;</h3>
+<p>&#x7528;&#x6CD5;&#xFF1A;</p>
+<p><code>/crafttweaker recipeNames</code><br><code>/crafttweaker recipeNames [modid]</code></p>
+<p><code>/ct recipeNames</code><br><code>/ct recipeNames [modid]</code></p>
+<p>&#x8BF4;&#x660E;&#xFF1A;</p>
+<p>&#x5C06;&#x6E38;&#x620F;&#x4E2D;&#x6240;&#x6709;&#x7684;&#x914D;&#x65B9;&#x540D;&#x79F0;&#x8F93;&#x51FA;&#x5230; crafttweaker.log &#x6587;&#x4EF6;&#x4E2D;&#x3002;<br>&#x53EF;&#x4EE5;&#x63D0;&#x4F9B;<modid>&#x6765;&#x8FC7;&#x6EE4;&#x7ED3;&#x679C;&#x3002;</modid></p>
+<h3 id="&#x914D;&#x65B9;">&#x914D;&#x65B9;</h3>
+<p>&#x7528;&#x6CD5;&#xFF1A;</p>
+<p><code>/crafttweaker recipes</code></p>
+<p><code>/ct recipes</code></p>
+<p>&#x8BF4;&#x660E;&#xFF1A;</p>
+<p>&#x5C06;&#x6E38;&#x620F;&#x4E2D;&#x6240;&#x6709;&#x7684;&#x5408;&#x6210;&#x914D;&#x65B9;&#x8F93;&#x51FA;&#x5230; crafttweaker.log &#x6587;&#x4EF6;&#x4E2D;&#x3002;</p>
+<h3 id="&#x914D;&#x65B9;&#x624B;&#x4E2D;">&#x914D;&#x65B9;(&#x624B;&#x4E2D;)</h3>
+<p>&#x7528;&#x6CD5;&#xFF1A;</p>
+<p><code>/crafttweaker recipes hand</code></p>
+<p><code>/ct recipes hand</code></p>
+<p>&#x8BF4;&#x660E;&#xFF1A;</p>
+<p>&#x5C06;&#x6E38;&#x620F;&#x4E2D;&#x73A9;&#x5BB6;&#x624B;&#x4E2D;&#x7269;&#x54C1;&#x7684;&#x6240;&#x6709;&#x5408;&#x6210;&#x914D;&#x65B9;&#x8F93;&#x51FA;&#x5230; crafttweaker.log &#x6587;&#x4EF6;&#x4E2D;&#x3002;</p>
+<h3 id="&#x914D;&#x65B9;&#x7194;&#x7089;">&#x914D;&#x65B9;(&#x7194;&#x7089;)</h3>
+<p>&#x7528;&#x6CD5;&#xFF1A;</p>
+<p><code>/crafttweaker recipes furnace</code></p>
+<p><code>/ct recipes furnace</code></p>
+<p>&#x8BF4;&#x660E;&#xFF1A;</p>
+<p>&#x5C06;&#x6E38;&#x620F;&#x4E2D;&#x6240;&#x6709;&#x7684;&#x7194;&#x7089;&#x914D;&#x65B9;&#x8F93;&#x51FA;&#x5230; crafttweaker.log &#x6587;&#x4EF6;&#x4E2D;&#x3002;</p>
+<h3 id="&#x811A;&#x672C;">&#x811A;&#x672C;</h3>
+<p>&#x7528;&#x6CD5;&#xFF1A;</p>
+<p><code>/crafttweaker scripts</code></p>
+<p><code>/ct scripts</code></p>
+<p>&#x8BF4;&#x660E;&#xFF1A;</p>
+<p>&#x53D1;&#x9001;&#x4E00;&#x4E2A;&#x53EF;&#x70B9;&#x51FB;&#x7684;&#x94FE;&#x63A5;&#x6765;&#x6253;&#x5F00;&#x811A;&#x672C;&#x76EE;&#x5F55;&#x3002;<br>&#x4E5F;&#x53EF;&#x4EE5;&#x4ECE;&#x547D;&#x4EE4;&#x884C;&#x5C06;&#x76EE;&#x5F55;&#x7684;&#x7EDD;&#x5BF9;&#x8DEF;&#x5F84;&#x8F93;&#x51FA;&#x5230;&#x65E5;&#x5FD7;&#x4E2D;&#x3002;</p>
+<h3 id="&#x79CD;&#x5B50;">&#x79CD;&#x5B50;</h3>
+<p>&#x7528;&#x6CD5;&#xFF1A;</p>
+<p><code>/crafttweaker seeds</code></p>
+<p><code>/ct seeds</code></p>
+<p>&#x8BF4;&#x660E;&#xFF1A;</p>
+<p>&#x5C06;&#x79CD;&#x5B50;&#x6CE8;&#x518C;&#x8868;&#x4E2D;&#x6240;&#x6709;&#x7269;&#x54C1;&#x7684;&#x5217;&#x8868;&#x8F93;&#x51FA;&#x5230; crafttweaker.log &#x6587;&#x4EF6;&#x4E2D;&#x3002;</p>
+<h3 id="&#x8BED;&#x6CD5;">&#x8BED;&#x6CD5;</h3>
+<p>&#x7528;&#x6CD5;&#xFF1A;</p>
+<p><code>/crafttweaker syntax</code></p>
+<p><code>/ct syntax</code></p>
+<p>&#x8BF4;&#x660E;&#xFF1A;</p>
+<p>&#x68C0;&#x6D4B;&#x4F60;&#x7684;&#x5168;&#x90E8;&#x811A;&#x672C;&#xFF0C;&#x5E76;&#x8F93;&#x51FA;&#x5B83;&#x5728;&#x4F60;&#x7684;&#x8BED;&#x6CD5;&#x4E2D;&#x53D1;&#x73B0;&#x7684;&#x6240;&#x6709;&#x9519;&#x8BEF;&#x3002;&#x8BF7;&#x6CE8;&#x610F;&#xFF0C;&#x5B83;&#x4E0D;&#x4F1A;&#x91CD;&#x8F7D;&#x4F60;&#x7684;&#x811A;&#x672C;&#xFF0C;&#x4F60;&#x9700;&#x8981;&#x91CD;&#x542F;&#x6E38;&#x620F;&#x624D;&#x80FD;&#x770B;&#x5230;&#x5B83;&#x4EEC;&#x7684;&#x6548;&#x679C;&#x3002;</p>
+<h3 id="wiki">Wiki</h3>
+<p>&#x7528;&#x6CD5;&#xFF1A;</p>
+<p><code>/crafttweaker wiki</code></p>
+<p><code>/ct wiki</code></p>
+<p>&#x8BF4;&#x660E;&#xFF1A;</p>
+<p>&#x5728;&#x6D4F;&#x89C8;&#x5668;&#x4E2D;&#x6253;&#x5F00;&#x8FD9;&#x4E2A;&#x6587;&#x6863;&#x9875;&#x9762; (&#x4E0E; <code>/ct docs</code>&#x76F8;&#x540C;)&#x3002;</p>
+<h3 id="zslint">ZsLint</h3>
+<p>&#x7528;&#x6CD5;&#xFF1A;</p>
+<p><code>/crafttweaker zslint</code></p>
+<p><code>/ct zslint</code> </p>
+<p>&#x8BF4;&#x660E;&#xFF1A;</p>
+<p>&#x542F;&#x52A8;zslint&#x5957;&#x63A5;&#x5B57;&#x3002;</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="UsingThisWiki.html" class="navigation navigation-prev " aria-label="Previous page: Wiki使用">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="Vanilla/CTGUI.html" class="navigation navigation-next " aria-label="Next page: CTGUI">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"命令","level":"1.5","depth":1,"next":{"title":"CTGUI","level":"1.6","depth":1,"path":"Vanilla/CTGUI.md","ref":"Vanilla/CTGUI.md","articles":[]},"previous":{"title":"Wiki使用","level":"1.4","depth":1,"path":"UsingThisWiki.md","ref":"UsingThisWiki.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Commands.md","mtime":"2022-05-21T05:35:32.132Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-05-21T05:35:53.666Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
